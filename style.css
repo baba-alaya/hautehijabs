@@ -322,9 +322,11 @@ input.input {
             background-color: black;
             color: white;
             border: none;
+            display: none;
         }
         .country {
             font-family: 'Poppins', sans-serif;
+            display: none;
         }
         .atm {
             margin-left: 27px;
@@ -332,6 +334,11 @@ input.input {
             margin-bottom: 20px !important;
         }
         .align .col-sm-12 {
+            padding-left: 30px;
+        }
+        .remark {
+            font-family: 'Poppins', sans-serif;
+            font-size: 15px;
             padding-left: 30px;
         }
         
