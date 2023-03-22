@@ -330,6 +330,9 @@ input.input {
             text-align: center;
             margin-bottom: 20px !important;
         }
+        .align .col-sm-12 {
+            padding-left: 30px;
+        }
         
 
 
