@@ -217,12 +217,7 @@ input.input {
             font-size: 5vh;
             margin: auto;
             margin-left: 20px !important;
-        }
-        .shopbest .row {
-            display: flex;
-            justify-content: center;
-            margin: auto;
-        }
+        } 
         .story-text {
             margin-right:auto ;
             /* width: 100%; */
@@ -245,11 +240,49 @@ input.input {
             font-family: 'Poppins', sans-serif;
         }
         .img-2 img {
-            width: 100%;
+            width: 99%;
             object-fit: cover;
             padding-left: 15px;
             /* margin-left: 200px !important; */
         }
+        .shopcollection h3 {
+            font-family: trajan-pro-3, serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 5vh;
+            margin: auto;
+            margin-left: 20px !important;
+        } 
+        .img-3 img {
+            width: 98%;
+            height: 250px;
+            margin-left: 15px;
+        }
+        .button1 span{
+            font-family: 'Poppins', sans-serif;
+        }
+        .needhelp {
+            font-family: trajan-pro-3, serif;
+            font-size: 25px;
+        }
+        .confidence {
+            font-family: trajan-pro-3, serif;
+            font-size: 25px;
+            font-weight: 300;
+            text-transform: uppercase;
+            margin-left: 20px;
+        }
+        .confi {
+            margin-top: 30px;
+            font-size: 18px;
+            padding-left: 20px;
+        }
+        .youtube iframe {
+            width: 97%;
+            margin-left:22px;
+        }
+
+
 
 
     }
