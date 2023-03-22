@@ -170,6 +170,7 @@ input.input {
       margin-top: 56vh !important;
       width: 100% !important;
       background-color: #FFF7EF;
+      padding-top: 20px;
         }
         .introduction h6 {
             display: none;
@@ -189,7 +190,7 @@ input.input {
             padding-top: 20px;
         }
          .vision {
-            padding-top:42vh;
+            padding-top:35vh;
         }
         .vision p{
             font-size: 12px;
