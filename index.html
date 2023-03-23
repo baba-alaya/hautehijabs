@@ -24,20 +24,34 @@
         <div class="container-fluid haute-hijab w-100%">
             <div class="container hero-section  ">
                 <!-- hero-nav -->
-                <nav class="navbar navbar-expand-lg py-3">
+                <nav class="navbar navbar-expand-lg py-3" id="start">
                     <div class="container-fluid">
-                        <a class="navbar-brand  d-grid me-auto gap-2 ms-4" href="#">
-                            <img src="./images/HH.png" alt="">
-                            <img src="./images/NEW YORK.png" alt="">
+                        <a class="navbar-brand  " href="#">
+                            <div class="brand1 d-grid  gap-2 ms-4">
+                                <img src="./images/HH.png" alt="">
+                                <img src="./images/NEW YORK.png" alt="">
+                            </div>
+                            <div class="brand2">
+                                <img src="./images/HAUTE-09 (1).png" alt="">
+                            </div>
                         </a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
                             data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                             aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
+                            <span class="navbar-toggler-icon text-white"></span>
                         </button>
+                        <div class="response d-flex gx-5" >
+                        <li class="hoversearch">
+                            <a href=""><i class="fa-solid fa-magnifying-glass text-white fs-5 pt-2 gap-4 column-gap-4 "></i></a>
+                            <ul class="search">
+                                <li><input type="search"  placeholder="search" class="searchbtn"></li>
+                            </ul>
+                        </li>
+                        <li id="cart"><a href=""><i class="fa-solid fa-cart-shopping text-white fs-5 pt-2 column-gap-4"></i></a></li>
+                        </div>
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
                             <ul class="navbar-nav ms-auto">
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-3 padding">
                                     <a class="nav-link dropdown-toggle text-white" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Featured
@@ -48,7 +62,7 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-3">
                                     <a class="nav-link dropdown-toggle text-white " href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Hijabs
@@ -59,7 +73,7 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown  mx-3">
                                     <a class="nav-link dropdown-toggle text-white" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Accessories
@@ -70,7 +84,7 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-3">
                                     <a class="nav-link dropdown-toggle text-white" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Set & Gifts
@@ -81,20 +95,20 @@
                                         <li><a class="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item dropdown">
+                                <li class="nav-item dropdown mx-3">
                                     <a class="nav-link text-white" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">
                                         Blogs
                                     </a>
                                 </li>
                             </ul>
+                            
                             <form class="d-flex ms-auto gap-4" role="search">
-                                <span><a href=""><i
-                                            class="fa-solid fa-magnifying-glass text-white fs-5     pt-2"></i></a></span>
+                                <span><a href=""><i class="fa-solid fa-magnifying-glass text-white fs-5 pt-2"></i></a></span>
                                 <span><a href=""><i class="fa-solid fa-user text-white fs-5 pt-2"></i></a></span>
-                                <span><a href=""><i
-                                            class="fa-solid fa-cart-shopping text-white fs-5 pt-2"></i></a></span>
+                                <span><a href=""><i class="fa-solid fa-cart-shopping text-white fs-5 pt-2"></i></a></span>
                             </form>
+                            
                         </div>
                     </div>
                 </nav>
@@ -114,7 +128,7 @@
         </div>
 
         <!-- vision section -->
-        <div class="container vision ">
+        <div class="container vision  " id="end">
             <div class="d-flex text-center ">
                 <div class="col-4">
                     <header class=" lh-sm mt-3">UNPARRALLED <br> QUALITY</header>
@@ -236,9 +250,9 @@
         </div>
 
         <!-- shop by collection section -->
-        <div class="container shopcollection mt-5">
-            <h3 class=" text-center pt-2 pb-2 ">SHOP BY COLLECTION</h3>
-            <div class=" row row-gap-3 text-center d-flex justify-content-center align">
+        <div class="container shopcollection mt-5" >
+            <h3 class=" text-center pt-2 pb-2 " id="start">SHOP BY COLLECTION</h3>
+            <div class=" row git row-gap-3 text-center d-flex justify-content-center align">
                 <div class=" col-sm-12 col-md-6 col-xl-4 shop">
                     <div class="img-1   "><img src="./images/Jersey_1 1.png" alt="" class="rounded-top-pill"></div>
                     <p class="h6 pt-2 pt-2">Jersey Hijabs<span class="px-3"><i class="fa-solid fa-arrow-right"></i></span></p>
@@ -355,8 +369,8 @@
 
         <!-- footer -->
         <div class="container footer bg-dark text-white">
-            <div class="row d-flex justify-content-center mx-3 footer-header">
-                <div class="col-sm-3 mt-3">
+            <div class="  row d-flex justify-content-center  footer-header">
+                <div class="col-sm-3 mt-3 ">
                     <h5 class="pb-2">Community</h5>
                     <P><a href="">Rewards Program</a></P>
                     <P><a href="">Refer a Friend</a></P>
@@ -411,19 +425,19 @@
                 </div>
             </div>
 
-            <div class="underline"></div>
+            <div class="underline me-3"></div>
 
             <div class="row mt-3">
-                <div class="col-sm-3 ms-4 mt-3">
-                    <p class="country">country/Region</p>
+                <!-- <div class="col-sm-3 ms-4 mt-3">
+                    <p class="country text-white">country/Region</p>
                     <select class="form-select mb-5" aria-label="Default select example">
                         <option selected>NIGERIA(USD$)</option>
                         <option value="1">USA(USD$)</option>
                         <option value="2">INDIA(RUPEE)</option>
                         <option value="3">UK(POUNDS)</option>
                     </select>
-                </div>
-                 <!-- <div class="col-sm-6 d-flex gap-1  mt-5 atm">
+                </div> -->
+                  <!-- <div class="row d-flex gap-1  mt-5 atm">
                     <div class="img-card"><img src="./images/image 2.png" alt=""></div>
                     <div class="img-card"><img src="./images/image 3.png" alt=""></div>
                     <div class="img-card"><img src="./images/image 4.png" alt=""></div>
@@ -441,6 +455,11 @@
                 <p class="remark text-center">Tutor : white coode</p>
             </div>
         </div>
+       <a href="#start">
+        <div class="takeup">
+            <div class="takeupbtn"><span><i class="fa-solid fa-arrow-up"></i></span></div>
+        </div>
+       </a>
     </div>
 
 
