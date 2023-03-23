@@ -294,7 +294,7 @@ input.input {
             margin-left: 20px !important;
         } 
         .brand2 img {
-            display: block;
+            display: none;
             width: 30px;
             height: 30px;
             position: absolute;
